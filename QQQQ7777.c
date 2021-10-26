@@ -2,7 +2,7 @@
 
 unsigned long long int  func1(int x){
     unsigned long long int r = 1;
-    int i,k;
+    int i;
     for(i = 1; i <= x; i++){
         r *= i;
     }
