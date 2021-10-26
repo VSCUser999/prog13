@@ -21,7 +21,9 @@ void func2(unsigned long long p){
 int main (void){
     unsigned long long y;
     int x;
+    
     scanf("%d",&x);
+
     y = func1(x);
     func2(y);
 }
